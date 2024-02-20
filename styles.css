@@ -278,7 +278,7 @@ p{
     select the images and SVGs by tag names
 */
 /* ----- */
-{
+img, svg{
     display: block;
     width: 100%;
     height: auto;
@@ -293,7 +293,7 @@ TO DO:
 select all of the spans by tag name
 */
 /* ----- */
-{
+span{
     display: block;
 }
 
@@ -309,7 +309,7 @@ select all of the spans by tag name
     select the h2 in the first section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-{
+#image h2{
     padding: 12px 0;
     background-color: var(--blue);
     color: var(--white);
@@ -324,7 +324,7 @@ select all of the spans by tag name
     select the h2 in the second section using the ID, tag name, and child/descendant selectors
 */
 /* ----- */
-{
+nav h2{
     padding: 12px 0;
     background-color: var(--green);
     color: var(--white);
