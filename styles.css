@@ -336,7 +336,7 @@ nav h2{
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+nav ul{
     display: block;
     list-style-type: none;
     padding: 0;
@@ -360,7 +360,7 @@ nav h2{
     select the anchor tags in the navigation using the tag names and child/descendant selectors
 */
 /* ----- */
-{
+nav a{
     display: block;
     width: 90%;
     margin: 16px auto;
